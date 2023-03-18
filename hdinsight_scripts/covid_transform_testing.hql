@@ -6,6 +6,7 @@ CREATE DATABASE IF NOT EXISTS covid_reporting_lookup;
 CREATE DATABASE IF NOT EXISTS covid_reporting_raw;
 CREATE DATABASE IF NOT EXISTS covid_reporting_processed;
 
+
 DROP TABLE IF EXISTS covid_reporting_lookup.dim_date;
 
 CREATE EXTERNAL TABLE IF NOT EXISTS covid_reporting_lookup.dim_date (
