@@ -41,6 +41,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS covid_reporting_lookup.dim_country (
 
 DROP TABLE IF EXISTS covid_reporting_raw.testing;
 
+
 CREATE EXTERNAL TABLE IF NOT EXISTS covid_reporting_raw.testing (
    country  STRING,
    country_code   STRING,
