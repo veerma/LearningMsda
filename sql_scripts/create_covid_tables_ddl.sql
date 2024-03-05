@@ -27,6 +27,7 @@ CREATE TABLE covid_reporting.hospital_admissions_daily
 )
 GO
 
+    
 CREATE TABLE covid_reporting.testing
 (
     country                 VARCHAR(100),
